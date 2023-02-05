@@ -15,4 +15,9 @@ public class Bat extends Mammal{
 		energyLevel+=25;
 		displayEnergy();
 	}
+	public void attackTown() {
+		System.out.println("The town is on fire!");
+		energyLevel-=100;
+		displayEnergy();
+	}
 }
